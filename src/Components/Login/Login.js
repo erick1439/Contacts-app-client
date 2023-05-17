@@ -26,7 +26,7 @@ const Login = () => {
         if (data.user) {
             localStorage.setItem('token', data.user);
             alert('Login Successful');
-            window.location.href = '/dashboard';
+            window.location.href = 'https://erick1439.github.io/Contacts-app-client/#/dashboard';
         }
 
         else

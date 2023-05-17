@@ -10,7 +10,7 @@ const DashboardNavbar = ({firstName, lastName, addNewContact}) => {
 
     const logoutUser = () => {
         localStorage.removeItem('token');
-        navigate('/login'); 
+        window.location.href = "https://erick1439.github.io/Contacts-app-client";
     }
 
     const [popup, setPopup] = useState(false);
